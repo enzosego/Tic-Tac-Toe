@@ -1,0 +1,66 @@
+body {
+    background-color: #2374AB;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+#top-container {
+    display: flex;
+    justify-content: center;
+}
+
+.text-input {
+    font-size: larger;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+#change-name {
+    margin-left: 20px;
+    margin-top: 1px;
+    padding: 0 10px 0 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+#restart-game {
+    margin-left: 20px;
+    margin-top: 1px;
+    padding: 0 15px 0 15px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+#dynamic-text {
+    padding-top: 30px;
+}
+
+#parent-div {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#game-container {
+    background-image: url('images/table.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-gap: 20px;
+}
+
+.game-tile {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.changed-tile {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
